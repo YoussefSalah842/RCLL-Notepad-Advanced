@@ -1,0 +1,17 @@
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\bin\Debug\RCLL Notepad Advanced.exe.config
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\bin\Debug\RCLL Notepad Advanced.exe
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\bin\Debug\RCLL Notepad Advanced.pdb
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\RCLL Notepad Advanced.csprojResolveAssemblyReference.cache
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.About.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\FileDialogExtenders.FileDialogControlBase.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.FindDialog.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.GoToLinePrompt.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.Main.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.SaveOpenDialog.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.PageSetupHeaderFooter.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.Properties.Resources.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.ReplaceDialog.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\MyNotepad.SaveChangesPrompt.resources
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\RCLL Notepad Advanced.csproj.GenerateResource.Cache
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\RCLL Notepad Advanced.exe
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\obj\x86\Debug\RCLL Notepad Advanced.pdb

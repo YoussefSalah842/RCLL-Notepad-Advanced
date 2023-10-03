@@ -1,0 +1,2 @@
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\bin\Debug\NotepadClone.exe.config
+C:\Users\salsh\Documents\Visual Studio 2015\Projects\RCLL Notepad Advanced\bin\Debug\RCLL Notepad Advanced.exe.config
