@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("RCLL Notepad Advanced is an easy notepad application with advanced features that help the user facilitate his writing tasks through some of the tools and services that the application provides")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("YoussefSalah842")]
-[assembly: AssemblyProduct("Notepad Clone")]
+[assembly: AssemblyProduct("RCLL Notepad Advanced")]
 [assembly: AssemblyCopyright("Copyright © YoussefSalah842 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -33,7 +33,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.6.7.3")]
-[assembly: AssemblyFileVersion("1.6.7.3")]
+[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyFileVersion("1.0.1.0")]
 [assembly: NeutralResourcesLanguage("en-US")]
 

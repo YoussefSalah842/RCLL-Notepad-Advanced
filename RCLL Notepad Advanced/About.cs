@@ -14,32 +14,9 @@ namespace MyNotepad {
             InitializeComponent();
         }
 
-        private void buttonOk_Click(object sender, EventArgs e) {
-            Close();
-        }
-
-        private void controlSimplyGoodCodeLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
-            System.Diagnostics.Process.Start("http://simplygoodcode.com");
-        }
-
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/YoussefSalah842/RCLL-Notepad-Advanced");
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://github.com/YoussefSalah842");
-        }
-
-        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://youssefpro986.blogspot.com/p/privacy-policy.html");
-        }
-
-        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://youssefpro986.blogspot.com/p/usage-agreement.html");
+            this.Close();
         }
     }
 }

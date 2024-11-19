@@ -885,7 +885,66 @@ Do you want to create a new file?
 
         private void menuitemHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Shortcuts for notepad \n  ctrl+n - new file\n  ctrl+o - open file\n  ctrl+p - print file\n  ctrl+e - exit\n  ctrl+f - find\n  ctrl+r - replace\n  f1 - help\n", "Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+        }
+
+        private void newToolStripButton_Click(object sender, EventArgs e)
+        {
+            New();
+        }
+
+        private void openToolStripButton_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Filter = "Text Files (*.txt)|*.txt|Rich Text Files (*.rtf)|*.rtf|All Files (*.*)|*.*";
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = openFileDialog1.FileName;
+
+                controlContentTextBox.Text = File.ReadAllText(filePath);
+            }
+        }
+
+        private void saveToolStripButton_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";  // File filter for saving
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = saveFileDialog1.FileName;
+
+                File.WriteAllText(filePath, controlContentTextBox.Text);
+            }
+    }
+
+        private void printToolStripButton_Click(object sender, EventArgs e)
+        {
+            
+            printDialog1.Document = printDocument1;
+
+            if (printDialog1.ShowDialog() == DialogResult.OK)
+            {
+                
+                printDocument1.Print();
+            }
+        }
+
+        private void cutToolStripButton_Click(object sender, EventArgs e)
+        {
+            controlContentTextBox.Cut();
+        }
+
+        private void copyToolStripButton_Click(object sender, EventArgs e)
+        {
+            controlContentTextBox.Copy();
+        }
+
+        private void pasteToolStripButton_Click(object sender, EventArgs e)
+        {
+            controlContentTextBox.Paste();
+        }
+
+        private void helpToolStripButton_Click(object sender, EventArgs e)
+        {
+            new About().ShowDialog(this);
         }
     }
 }
